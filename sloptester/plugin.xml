@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         id="sloptester"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run class="sloptester.MyRunnable"/>
+      </application>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="sloptester.sloptester"
+            name="sloptester"/>
+   </extension>
+
+</plugin>

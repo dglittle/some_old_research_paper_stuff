@@ -1,0 +1,5 @@
+1200466579648: input: f bonus
+1200466582335: guess: f.bonus
+1200466582507: guess: equals(f.bonus)
+1200466582538: guess: f.bonus.MAX_VALUE
+1200466586007: chosen: f.bonus
