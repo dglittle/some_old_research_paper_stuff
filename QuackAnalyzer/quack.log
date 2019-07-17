@@ -1,0 +1,223 @@
+1203227245931: version: 0.0.9
+1203227245931: input: d save file "C:\\Working\\hello.txt"
+1203227246040: model cache miss
+1203227246665: desired type: null
+1203227246821: stats: w:261 l:96 f:3604 t546
+1203227246821: guess: U.save(d, new File("C:\\Working\\hello.txt"))
+1203227246821: guess: U.save(new File("C:\\Working\\hello.txt"), d)
+1203227246821: guess: U.saveXml(d, new File("C:\\Working\\hello.txt"))
+1203227249353: chosen: U.save(d, new File("C:\\Working\\hello.txt"))
+1203230175212: version: 0.0.9
+1203230175212: input: memory 
+1203230175556: desired type: java.lang.Long
+1203230175681: stats: w:1 l:1 f:4356 t664
+1203230175681: no guesses
+1203230188009: version: 0.0.9
+1203230188009: input: memory 
+1203230188321: desired type: java.lang.Long
+1203230188415: stats: w:23 l:10 f:4273 t643
+1203230188415: guess: r.maxMemory()
+1203230188415: guess: r.totalMemory()
+1203230188415: guess: r.freeMemory()
+1203230192806: chosen: r.totalMemory()
+1203233335853: version: 0.0.9
+1203233335853: input: new 
+1203233336134: desired type: java.lang.StringBuffer
+1203233336228: stats: w:47 l:18 f:4185 t601
+1203233336228: guess: new StringBuffer()
+1203233336228: guess: new StringBuffer(filename)
+1203233336228: guess: new StringBuffer(hashCode())
+1203233337478: chosen: new StringBuffer()
+1203241197353: version: 0.0.10
+1203241197353: input: sysout out 
+1203241197399: model cache miss
+1203241197759: desired type: null
+1203241197853: stats: w:1 l:1 f:2132 t232
+1203241197853: no guesses
+1203495274181: version: 0.0.11
+1203495274181: input: U create "data.xml"
+1203495274181: model cache miss
+1203495274290: desired type: null
+1203495274368: stats: w:1 l:1 f:1707 t229
+1203495274462: no guesses
+1203495279087: version: 0.0.11
+1203495279087: input: U create "data.xml"
+1203495279337: desired type: null
+1203495279446: stats: w:80 l:26 f:4821 t617
+1203495279728: guess: U.createDocument().createComment("data.xml")
+1203495279728: guess: U.createXml().createComment("data.xml")
+1203495279728: guess: U.createDocument().createElement("data.xml")
+1203495288493: version: 0.0.11
+1203495288493: input: U create "data.xml" file
+1203495288712: desired type: null
+1203495288837: stats: w:148 l:47 f:3926 t569
+1203495289103: guess: U.createMatcher(File.separator, "data.xml")
+1203495289103: guess: U.createMatcher("data.xml", File.separator)
+1203495289103: guess: U.createMatcher(File.pathSeparator, "data.xml")
+1203495295212: version: 0.0.11
+1203495295212: input: U create "data.xml" file xml
+1203495295243: desired type: null
+1203495295353: stats: w:285 l:112 f:3926 t569
+1203495295634: guess: U.save(U.createXml(), new File("data.xml"))
+1203495295634: guess: U.saveXml(U.createXml(), new File("data.xml"))
+1203495295634: guess: U.saveXml(U.createDocument(), new File("data.xml"))
+1203495309243: version: 0.0.11
+1203495309243: input: U 
+1203495309274: desired type: null
+1203495309353: stats: w:30 l:4 f:3926 t569
+1203495309587: guess: U.xpaths
+1203495309587: guess: U.test()
+1203495309587: guess: U.blahh()
+1203495326790: version: 0.0.11
+1203495326790: input: _
+1203495326806: desired type: org.w3c.dom.Document
+1203495326884: stats: w:20 l:14 f:3926 t569
+1203495327103: guess: U.createDocument()
+1203495327103: guess: U.createXml()
+1203495327103: guess: new U().createXml()
+1203495368681: version: 0.0.11
+1203495368681: input: U load "data.xml"
+1203495368712: desired type: org.w3c.dom.Document
+1203495368790: stats: w:33 l:30 f:3926 t569
+1203495369056: guess: U.loadXmlString("data.xml")
+1203495369056: guess: new U().loadXmlString("data.xml")
+1203495369056: guess: U.loadXml(new File("data.xml"))
+1203495373509: chosen: U.loadXml(new File("data.xml"))
+1203495816478: version: 0.0.11
+1203495816478: input: U xpath
+1203495816712: desired type: null
+1203495816790: stats: w:24 l:9 f:3692 t524
+1203495817009: guess: U.run(xpath)
+1203495817009: guess: U.slurp(xpath)
+1203495817009: guess: U.profile(xpath)
+1203495827243: version: 0.0.11
+1203495827243: input: U xpath elements
+1203495827274: desired type: null
+1203495827353: stats: w:52 l:20 f:3692 t524
+1203495827603: guess: U.lexemes(xpath).elements()
+1203495827603: guess: U.tokenizeTemp(xpath).elements()
+1203495827603: guess: U.lexemes(xpath).removeAllElements()
+1203495832196: version: 0.0.11
+1203495832196: input: U xpath elements get
+1203495832228: desired type: null
+1203495832321: stats: w:190 l:79 f:3692 t524
+1203495832556: guess: U.createDocument().getElementsByTagName(xpath)
+1203495832556: guess: U.createXml().getElementsByTagName(xpath)
+1203495832556: guess: U.createDocument().getElementsByTagName(xpath).getClass()
+1203495836853: version: 0.0.11
+1203495836853: input: U xpath elements get d
+1203495836868: desired type: null
+1203495836978: stats: w:104 l:62 f:3692 t524
+1203495837228: guess: U.getElements(xpath, d)
+1203495837228: guess: new U().getElements(xpath, d)
+1203495837228: guess: U.getElements(xpath, d).getClass()
+1203495844399: chosen: U.getElements(xpath, d)
+1203495856149: version: 0.0.11
+1203495856149: input: d xpath
+1203495856181: desired type: null
+1203495856259: stats: w:61 l:17 f:3692 t524
+1203495856478: guess: xpath.equals(d)
+1203495856478: guess: d.equals(xpath)
+1203495856478: guess: d.createComment(xpath)
+1203495859931: version: 0.0.11
+1203495859931: input: d xpath elements
+1203495859962: desired type: null
+1203495860040: stats: w:244 l:54 f:3692 t524
+1203495860274: guess: U.getElements(xpath, d)
+1203495860274: guess: d.getElementsByTagName(xpath)
+1203495860274: guess: d.getElementsByTagNameNS(xpath, xpath)
+1203495863290: chosen: U.getElements(xpath, d)
+1203496115103: version: 0.0.11
+1203496115103: input: exit 0
+1203496115337: desired type: null
+1203496115431: stats: w:81 l:67 f:4009 t572
+1203496115681: guess: System.exit(0)
+1203496115681: guess: System.exit(0.SIZE)
+1203496115681: guess: new SecurityManager().checkExit(0)
+1203496116415: chosen: System.exit(0)
+1203497274962: version: 0.0.11
+1203497274962: input: exit 0
+1203497275181: desired type: null
+1203497275274: stats: w:81 l:67 f:3794 t548
+1203497275493: guess: System.exit(0)
+1203497275509: guess: System.exit(0.SIZE)
+1203497275509: guess: new SecurityManager().checkExit(0)
+1203497276274: chosen: System.exit(0)
+1203497824509: version: 0.0.11
+1203497824509: input: exit 0
+1203497824743: desired type: null
+1203497824837: stats: w:81 l:67 f:3963 t570
+1203497825087: guess: System.exit(0)
+1203497825087: guess: System.exit(0.SIZE)
+1203497825087: guess: new SecurityManager().checkExit(0)
+1203497825743: chosen: System.exit(0)
+1203497833259: version: 0.0.11
+1203497833259: input: U save s
+1203497833290: desired type: null
+1203497833399: stats: w:1180 l:295 f:3963 t570
+1203497833649: guess: U.saveObject(s, s)
+1203497833649: guess: new U().saveObject(s, s)
+1203497833649: guess: U.saveObject(s, "Hello")
+1203497837524: version: 0.0.11
+1203497837524: input: U save s string
+1203497837571: desired type: null
+1203497837665: stats: w:539 l:131 f:3963 t570
+1203497837946: guess: U.saveObject(new String(), s)
+1203497837946: guess: U.saveObject(s, new String())
+1203497837946: guess: U.saveObject(U.profileToString(), s)
+1203497844431: version: 0.0.11
+1203497844431: input: U save s string file
+1203497844462: desired type: null
+1203497844587: stats: w:942 l:218 f:3963 t570
+1203497844868: guess: U.save(new File(new String()), s)
+1203497844868: guess: U.save(new File(U.profileToString()), s)
+1203497844868: guess: new U().save(new File(new String()), s)
+1203497856212: chosen: U.save(new File(new String()), s)
+1203513787343: version: 0.0.11
+1203513787343: input: exit 0
+1203513787578: desired type: null
+1203513787671: stats: w:81 l:67 f:3964 t570
+1203513787921: guess: System.exit(0)
+1203513787921: guess: System.exit(0.SIZE)
+1203513787921: guess: new SecurityManager().checkExit(0)
+1203513789890: chosen: System.exit(0)
+1203735487277: version: 0.0.11
+1203735487277: input: exit 0
+1203735487293: model cache miss
+1203735487527: desired type: null
+1203735487605: stats: w:113 l:61 f:3685 t551
+1203735487824: guess: System.exit(0)
+1203735487824: guess: Runtime.runFinalizersOnExit(equals(0))
+1203735487824: guess: System.runFinalizersOnExit(equals(0))
+1203735488433: chosen: System.exit(0)
+1203838858125: version: 0.0.11
+1203838858125: input: println 
+1203838858140: model cache miss
+1203838858703: desired type: null
+1203838858828: stats: w:389 l:68 f:5350 t1027
+1203838859187: guess: System.out.println()
+1203838859187: guess: System.err.println()
+1203838859187: guess: U.debugOut.println()
+1203838860531: chosen: System.out.println()
+1204079612468: version: 0.0.11
+1204079612468: input: new 
+1204079613031: desired type: AnalyzeQuackLogs
+1204079613187: stats: w:3 l:4 f:5700 t1054
+1204079613578: guess: new AnalyzeQuackLogs()
+1204079614593: chosen: new AnalyzeQuackLogs()
+1204079617343: version: 0.0.11
+1204079617343: input: exit 0
+1204079617421: desired type: null
+1204079617546: stats: w:81 l:67 f:5701 t1054
+1204079617953: guess: System.exit(0)
+1204079617953: guess: System.exit(0.SIZE)
+1204079617953: guess: new SecurityManager().checkExit(0)
+1204079618421: chosen: System.exit(0)
+1204081407328: version: 0.0.11
+1204081407328: input: U.getString(".//version/time", e) parse
+1204081407343: model cache miss
+1204081407562: desired type: java.lang.Integer
+1204081407703: stats: w:716 l:229 f:3589 t537
+1204081407968: guess: U.printProgress_previousMax.parseInt(e.getAttributeNS(toString(), ".//version/time"))
+1204081407968: guess: U.printProgress_previousMax.parseInt(e.getAttributeNS(".//version/time", toString()))
+1204081407968: guess: U.printProgress_previousMax.parseInt(U.getString(".//version/time", e))
