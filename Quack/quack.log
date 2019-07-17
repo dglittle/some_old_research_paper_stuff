@@ -1,0 +1,283 @@
+1203241969368: version: 0.0.10
+1203241969368: input: new 
+1203241969415: model cache miss
+1203241970681: desired type: null
+1203241971712: stats: w:27 l:4 f:10331 t1530
+1203241971712: guess: new Process()
+1203241971712: guess: new Main()
+1203241971712: guess: new String()
+1203241980743: version: 0.0.10
+1203241980743: input: new 
+1203241981634: desired type: null
+1203241981821: stats: w:27 l:4 f:9068 t1444
+1203241981821: guess: new UU()
+1203241981821: guess: new AST()
+1203241981821: guess: new Process()
+1203241984524: version: 0.0.10
+1203241984524: input: new Vec
+1203241984681: desired type: null
+1203241984868: stats: w:1 l:1 f:9068 t1444
+1203241984868: no guesses
+1203242003306: version: 0.0.10
+1203242003306: input: new 
+1203242003478: desired type: java.util.Vector<MyUtil.Pair<java.lang.Boolean,java.lang.String>>
+1203242004462: stats: w:50 l:19 f:9219 t1470
+1203242004478: guess: new Vector<Pair<Boolean,String>>()
+1203242004478: guess: getTokens(new String())
+1203242004478: guess: new Vector<Pair<Boolean,String>>(maxWordSize)
+1203242009431: chosen: new Vector<Pair<Boolean,String>>()
+1203242035306: version: 0.0.10
+1203242035306: input: v add new literal m group 1
+1203242035431: desired type: null
+1203242035868: stats: w:3259 l:1001 f:9229 t1471
+1203242035868: no guesses
+1203242044087: version: 0.0.10
+1203242044087: input: v add new literal
+1203242044228: desired type: null
+1203242044446: stats: w:388 l:124 f:9229 t1471
+1203242044446: guess: new Vector(Pattern.LITERAL).add(v)
+1203242044446: guess: new Vector().add(Pattern.LITERAL, v)
+1203242044446: guess: v.addAll(Pattern.LITERAL, new Vector())
+1203242057993: version: 0.0.10
+1203242057993: input: pair literal m group 1
+1203242058149: desired type: null
+1203242058384: stats: w:180 l:82 f:9230 t1472
+1203242058384: guess: new Pair<Boolean,String>(literal, m.group(1))
+1203242058384: guess: new Pair<Boolean,String>(literal, UU.m.group(1))
+1203242058384: guess: new Pair<Boolean,String>(1.equals(literal), m.group())
+1203242061399: chosen: new Pair<Boolean,String>(literal, m.group(1))
+1203242154087: version: 0.0.10
+1203242154087: input: tokens 
+1203242155103: desired type: java.util.Vector<MyUtil.Pair<java.lang.Boolean,java.lang.String>>
+1203242155306: stats: w:23 l:13 f:9921 t1522
+1203242155306: guess: getTokens(key)
+1203242155306: guess: getTokens(expression)
+1203242155306: guess: getTokens(toString())
+1203242158853: chosen: getTokens(expression)
+1203243854009: version: 0.0.11
+1203243854009: input: _
+1203243854149: model cache miss
+1203243855696: desired type: java.util.Vector<MyUtil.Pair<java.lang.Boolean,java.lang.String>>
+1203243856540: stats: w:43 l:14 f:10741 t1587
+1203243857134: guess: new Vector<Pair<Boolean,String>>()
+1203243857134: guess: getTokens(key)
+1203243857134: guess: getTokens(expression)
+1203243868196: chosen: getTokens(expression)
+1203243959306: version: 0.0.11
+1203243959306: input: p 
+1203243960181: desired type: null
+1203243960384: stats: w:25 l:10 f:8899 t1435
+1203243960915: guess: p
+1203243960915: guess: Ident.p
+1203243960915: guess: equals(p)
+1203243963915: version: 0.0.11
+1203243963931: input: p left
+1203243964056: desired type: null
+1203243964978: stats: w:43 l:28 f:8899 t1435
+1203243965540: guess: p.left
+1203243965540: guess: equals(p.left)
+1203243965540: guess: p.left.TYPE
+1203243967462: chosen: p.left
+1203243996587: version: 0.0.11
+1203243996587: input: p left
+1203243996712: desired type: null
+1203243996915: stats: w:43 l:28 f:8900 t1436
+1203243997446: guess: p.left
+1203243997446: guess: equals(p.left)
+1203243997446: guess: p.left.TYPE
+1203244005931: chosen: p.left
+1203244018524: version: 0.0.11
+1203244018524: input: p 
+1203244018665: desired type: null
+1203244018821: stats: w:25 l:10 f:8900 t1436
+1203244019321: guess: p
+1203244019321: guess: Ident.p
+1203244019321: guess: equals(p)
+1203244046478: version: 0.0.11
+1203244046478: input: p 
+1203244047274: desired type: null
+1203244047415: stats: w:25 l:10 f:8169 t1366
+1203244047915: guess: p
+1203244047915: guess: Ident.p
+1203244047915: guess: equals(p)
+1203244064431: version: 0.0.11
+1203244064431: input: p right
+1203244064556: desired type: null
+1203244064728: stats: w:35 l:21 f:8170 t1367
+1203244065243: guess: p.right
+1203244065243: guess: getTrimmedKey(p.right)
+1203244065243: guess: equals(p.right)
+1203244069009: chosen: p.right
+1203244360103: version: 0.0.11
+1203244360103: input: _
+1203244360962: desired type: null
+1203244361134: stats: w:30 l:5 f:9090 t1479
+1203244361634: guess: expression
+1203244361634: guess: lits
+1203244361634: guess: this
+1203244376134: version: 0.0.11
+1203244376134: input: append tok right
+1203244376259: desired type: null
+1203244376478: stats: w:149 l:49 f:9094 t1480
+1203244377040: guess: buf.append(tok.right)
+1203244377040: guess: out.append(tok.right)
+1203244377040: guess: System.out.append(tok.right)
+1203244378712: chosen: buf.append(tok.right)
+1203244410884: version: 0.0.11
+1203244410884: input: quack buf
+1203244411853: desired type: java.lang.String
+1203244412931: stats: w:52 l:24 f:9906 t1527
+1203244413509: guess: new String(quackBuf)
+1203244413509: guess: quackBuf.toString()
+1203244413509: guess: String.valueOf(quackBuf)
+1203244416571: chosen: quackBuf.toString()
+1203244575853: version: 0.0.11
+1203244575853: input: exit 0
+1203244576649: desired type: null
+1203244576821: stats: w:153 l:45 f:8452 t1389
+1203244577353: guess: System.exit(0)
+1203244577353: guess: wait(EXIT_RELAUNCH, 0)
+1203244577353: guess: wait(0, EXIT_RESTART)
+1203244578103: chosen: System.exit(0)
+1203247816806: version: 0.0.11
+1203247816806: input: exit 0
+1203247817618: desired type: null
+1203247817853: stats: w:153 l:45 f:8681 t1427
+1203247818384: guess: System.exit(0)
+1203247818384: guess: wait(EXIT_RELAUNCH, 0)
+1203247818384: guess: wait(0, EXIT_RESTART)
+1203247819165: chosen: System.exit(0)
+1203716548386: version: 0.0.11
+1203716548386: input: my validFuncTree_fromSlopTester(node, 2)
+1203716548433: model cache miss
+1203716549652: desired type: null
+1203716550011: stats: w:83 l:56 f:10245 t1531
+1203716550933: guess: MyApplicationGetSamples.validFuncTree_fromSlopTester(node, 2)
+1203716550933: guess: new MyApplicationGetSamples().validFuncTree_fromSlopTester(node, 2)
+1203716550933: guess: MyApplicationGetSamples.validFuncTree_fromSlopTester(node, AST.JLS2)
+1203716552996: chosen: MyApplicationGetSamples.validFuncTree_fromSlopTester(node, 2)
+1203725680277: version: 0.0.11
+1203725680277: input: o instanceof TypeDe
+1203725680340: model cache miss
+1203725681027: desired type: null
+1203725681277: stats: w:1 l:1 f:10252 t1170
+1203725681855: no guesses
+1203727758793: version: 0.0.11
+1203727758793: input: o instanceof EnumDec
+1203727759449: desired type: null
+1203727759652: stats: w:1 l:1 f:9562 t1172
+1203727760215: no guesses
+1203728959043: version: 0.0.11
+1203728959043: input: new Slo
+1203728959105: model cache miss
+1203728960246: desired type: org.eclipse.jdt.core.dom.ASTVisitor
+1203728960465: stats: w:1 l:1 f:10559 t1607
+1203728961136: no guesses
+1203729134746: version: 0.0.11
+1203729134746: input: new MyA
+1203729134808: model cache miss
+1203729135511: desired type: org.eclipse.jdt.core.dom.ASTVisitor
+1203729135699: stats: w:19 l:27 f:8232 t1371
+1203729136261: guess: new ASTVisitor(new Vector<A>().contains(new MyApplication()))
+1203729136261: guess: new ASTVisitor(new Vector<A>().remove(new MyApplication()))
+1203729136261: guess: new ASTVisitor(new Vector<A>().remove(new MyApplicationGetSamples()))
+1203729227136: version: 0.0.11
+1203729227136: input: exit 0
+1203729227965: desired type: null
+1203729228152: stats: w:99 l:49 f:8813 t1441
+1203729228715: guess: System.exit(0)
+1203729228715: guess: wait(0, IApplication.EXIT_OK)
+1203729228715: guess: Runtime.getRuntime().exit(0)
+1203729229371: chosen: System.exit(0)
+1203746543761: version: 0.0.11
+1203746543761: input: exit 0
+1203746543824: model cache miss
+1203746544605: desired type: null
+1203746544808: stats: w:157 l:46 f:8887 t1452
+1203746545371: guess: System.exit(0)
+1203746545371: guess: wait(EXIT_RELAUNCH, 0)
+1203746545371: guess: wait(0, EXIT_RESTART)
+1203746546574: chosen: System.exit(0)
+1203774304168: version: 0.0.11
+1203774304168: input: parent instanceof VariableDeclarationFr
+1203774304199: model cache miss
+1203774305136: desired type: null
+1203774305402: stats: w:1 l:1 f:10379 t1481
+1203774306074: no guesses
+1203790052058: version: 0.0.11
+1203790052058: input: exit 0
+1203790052105: model cache miss
+1203790052761: desired type: null
+1203790052918: stats: w:59 l:41 f:6870 t1204
+1203790053386: guess: System.exit(0)
+1203790053386: guess: System.runFinalizersOnExit(equals(0))
+1203790053386: guess: System.exit(0.SIZE)
+1203790054090: chosen: System.exit(0)
+1203790154824: version: 0.0.11
+1203790154824: input: exit 0
+1203790154871: model cache miss
+1203790155808: desired type: null
+1203790156058: stats: w:147 l:44 f:10202 t1556
+1203790156683: guess: System.exit(0)
+1203790156683: guess: wait(EXIT_RELAUNCH, 0)
+1203790156683: guess: wait(0, EXIT_RESTART)
+1203790157496: chosen: System.exit(0)
+1203797102590: version: 0.0.11
+1203797102590: input: exit 0
+1203797102621: model cache miss
+1203797103246: desired type: null
+1203797103386: stats: w:59 l:41 f:6163 t1136
+1203797103808: guess: System.exit(0)
+1203797103808: guess: System.runFinalizersOnExit(equals(0))
+1203797103808: guess: System.exit(0.SIZE)
+1203797104543: chosen: System.exit(0)
+1203798178011: version: 0.0.11
+1203798178011: input: exit 0
+1203798178058: model cache miss
+1203798178949: desired type: null
+1203798179183: stats: w:151 l:45 f:9630 t1517
+1203798179824: guess: System.exit(0)
+1203798179824: guess: wait(EXIT_RELAUNCH, 0)
+1203798179824: guess: wait(0, EXIT_RESTART)
+1203798180621: chosen: System.exit(0)
+1203812461152: version: 0.0.11
+1203812461152: input: exit 0
+1203812461965: desired type: null
+1203812462168: stats: w:156 l:45 f:8904 t1449
+1203812462746: guess: System.exit(0)
+1203812462746: guess: wait(EXIT_RELAUNCH, 0)
+1203812462746: guess: wait(0, EXIT_RESTART)
+1203812463480: chosen: System.exit(0)
+1203812903808: version: 0.0.11
+1203812903808: input: exit 0
+1203812903871: model cache miss
+1203812904558: desired type: null
+1203812904777: stats: w:81 l:67 f:10192 t1165
+1203812905293: guess: System.exit(0)
+1203812905293: guess: System.exit(0.SIZE)
+1203812905293: guess: new SecurityManager().checkExit(0)
+1203812906011: chosen: System.exit(0)
+1203816171480: version: 0.0.11
+1203816171480: input: exit 0
+1203816171527: model cache miss
+1203816172277: desired type: null
+1203816172465: stats: w:157 l:46 f:8740 t1431
+1203816173011: guess: System.exit(0)
+1203816173011: guess: wait(EXIT_RELAUNCH, 0)
+1203816173011: guess: wait(0, EXIT_RESTART)
+1203816173636: chosen: System.exit(0)
+1203818383324: version: 0.0.11
+1203818383324: input: exit 0
+1203818383386: model cache miss
+1203818384683: desired type: null
+1203818385761: stats: w:55 l:39 f:9495 t1433
+1203818386371: guess: System.exit(0)
+1203818386371: guess: System.runFinalizersOnExit(equals(0))
+1203818386371: guess: System.exit(0.SIZE)
+1203818387168: chosen: System.exit(0)
+1203825450281: version: 0.0.11
+1203825450281: input: new Comp
+1203825450359: model cache miss
+1203825452031: desired type: null
+1203825452265: stats: w:1 l:1 f:8338 t1513
+1203825452937: no guesses
